@@ -1,0 +1,82 @@
+*{
+    margin: 3px;
+    padding: 0;
+    font-family: arial;
+    color: #fff;
+}
+body{
+    background-color: #181818;
+}
+h1{
+    float: left;
+    font-size: 20px;
+}
+span{
+    color: #ed971e;
+}
+h2{
+    color: #ed971e;
+}
+header{
+    background: url(imagens/papel1.jpg) no-repeat center;
+    background-size: cover;
+    padding-bottom: 180px;
+    padding-top: 17px;
+    border-radius: 23px;
+}
+#menu{
+    font-size: 20px;
+    padding-bottom: 127px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: #ed971e;
+}
+ul{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.paragrafo1{
+    font-size: 17px;
+    box-shadow: rgba(0, 0, 0, 0.831) 0px 22px 70px 4px;
+    width: 25%;
+    padding-top: 15px;
+    padding: 45px;
+    border-radius: 114px 0 117px;
+}
+button{
+    color: #181818;
+    border-radius: 7px;
+    padding: 2px;
+    width: 85px;
+}
+button:hover{
+    background-color: #181818;
+    color: #fff;
+}
+.compra > span{
+    gap:  4px;
+}
+.lupa{
+    float: right;
+    margin-top: -23px;
+}
+#icons{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    font-size: 27px;
+    padding: 23px;
+}
+#icons a :hover{
+    color: #ed971e;
+}
+nav{
+    padding-bottom: 123px;
+    display: flex;
+}
+
