@@ -1,0 +1,38 @@
+body{
+    background-color: #181818;
+}
+
+#abertura{
+    color: white;
+    text-align: center;
+    padding: 230px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    animation: pulo 0.5s ease-in-out;
+}
+
+@keyframes pulo{
+    0% { transform: translateY(0);}
+    50% { transform: translateY(-20px);}
+    100% { transform: translateY(0);}
+}
+
+#entrada{
+    display:inline;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.fa-home{
+    color: #ed971e;
+}
+a.sem-sublinhado{
+    text-decoration: none;
+}
+
+a{
+    display: inline-block; /* Garante que o link tenha uma largura definida */
+    transition: transform 0.2s ease-in-out; /* Adiciona uma transição suave ao movimento */
+}
+
+a:hover{
+    transform: translateY(-5px);
+}

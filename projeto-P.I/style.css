@@ -34,15 +34,22 @@ a{
 a:hover{
     color: #ed971e;
 }
+span{
+    background-color: #181818; /* Cor de fundo do quadrado */
+  padding: 5px 5px; /* Preenchimento interno do quadrado */
+  border-radius: 5px; /* Raio das bordas do quadrado */
+}
 ul{
     text-align: center;
     display: flex;
     justify-content: space-around;
     list-style: none;
+
 }
 .paragrafo1{
     font-size: 17px;
-    box-shadow: rgba(0, 0, 0, 0.831) 0px 22px 70px 4px;
+    background-color: #181818;
+    box-shadow: 0px 22px 70px 4px #fff(0, 0, 0, 0.831);
     width: 25%;
     padding-top: 15px;
     padding: 45px;
